@@ -11,6 +11,25 @@ import UIKit
 // MARK: - ... Properties
 class ToDoItemTableViewController: UITableViewController {
     var todo = ToDo()
+    
+    @IBOutlet weak var saveButton: UIBarButtonItem!
+   
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+            saveButton.isEnabled = false
+        
+    }
+    
+    @IBAction func textFieldEditing(_ sender: UITextField) {
+        if sender.text != "" {
+            saveButton.isEnabled = true
+        } else {
+            saveButton.isEnabled = false
+        }
+    }
+    
 }
 
 // MARK: - ... TableViewDataSource
@@ -120,4 +139,6 @@ extension ToDoItemTableViewController {
             }
         }
     }
+    
+    
 }

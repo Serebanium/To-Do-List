@@ -40,7 +40,14 @@ extension ToDoTableViewController {
         let source = segue.source as! ToDoItemTableViewController
         let todo = source.todo
         
-        print(#function, todo)
+        if let selectedPath = tableView.indexPathForSelectedRow {
+            todos[selectedPath.row] = todo
+            tableView.reloadRows(at: [selectedPath], with: .automatic)
+        } else {
+            let indexPath = IndexPath(row: todos.count, section: 0)
+            todos.append(todo)
+            tableView.insertRows(at: [indexPath], with: .automatic)
+        }
     }
 }
 

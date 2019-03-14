@@ -335,13 +335,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8J39KF9DMS;
+				DEVELOPMENT_TEAM = 9KUAS6U468;
 				INFOPLIST_FILE = "$(SRCROOT)/To Do List/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.learnSwift.To-Do-List";
+				PRODUCT_BUNDLE_IDENTIFIER = "topMob.To-Do-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -353,13 +353,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8J39KF9DMS;
+				DEVELOPMENT_TEAM = 9KUAS6U468;
 				INFOPLIST_FILE = "$(SRCROOT)/To Do List/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.learnSwift.To-Do-List";
+				PRODUCT_BUNDLE_IDENTIFIER = "topMob.To-Do-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
